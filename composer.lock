@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2f919288a6f8fb5eaaabe542ffd183d1",
+    "packages": [
+        {
+            "name": "friedolinfoerder/html-changer",
+            "version": "v0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/friedolinfoerder/html-changer.git",
+                "reference": "11324d318f366a56389e1ae54c6cd3f3649262ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/friedolinfoerder/html-changer/zipball/11324d318f366a56389e1ae54c6cd3f3649262ae",
+                "reference": "11324d318f366a56389e1ae54c6cd3f3649262ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "kahlan/kahlan": "^4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "html_changer\\": "src/",
+                    "html_changer\\testing\\": "spec/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Friedolin Förder"
+                }
+            ],
+            "description": "Parse html and change it's output",
+            "homepage": "https://github.com/friedolinfoerder/html-changer",
+            "keywords": [
+                "change",
+                "html",
+                "manipulate"
+            ],
+            "time": "2021-10-10T19:05:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
